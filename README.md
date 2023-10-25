@@ -4,18 +4,7 @@
 This project aims to dynamically create Prefect flows for managing DBT models. It auto-generates Python code for Prefect flows based on the dependencies between DBT models. The generated Prefect flows can be further customized to include additional tasks.
 You can make it more complex by utilizing dbt tags. And run this flow for specified tag only.
 
-```mermaid
-graph TD;
-    style dbt_stg fill:#000099,stroke:#000000;
-    style dbt_dv fill:#000099,stroke:#000000;
-    style dbt_dm fill:#000099,stroke:#000000;
-    style custom_task fill:#FF0000,stroke:#000000;
-
-    dbt_stg-->dbt_dv;
-    dbt_dv-->dbt_dm;
-    custom_task-->dbt_dm;
-```
-
+![image](https://github.com/PavelLambo/DynamicDBT-PrefectFlowGenerator/assets/148942618/acd5b7b3-f24b-4fde-b8cd-0ea220cdde30)
 
 Requirements
 Python 3.x
