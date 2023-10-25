@@ -30,4 +30,4 @@ You can customize the generated Prefect flow by modifying the code template in g
 Feel free to open issues or PRs if you have improvements or fixes.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is free to use by anyone.
