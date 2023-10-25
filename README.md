@@ -6,11 +6,11 @@ You can make it more complex by utilizing dbt tags. And run this flow for specif
 
 ```mermaid
 graph TD;
-    style dbt_stg fill:#000099;
-    style dbt_dv fill:#000099;
-    style dbt_dm fill:#000099;
-    style custom_task fill:#FF0000;
-    
+    style dbt_stg fill:#000099,stroke:#000000;
+    style dbt_dv fill:#000099,stroke:#000000;
+    style dbt_dm fill:#000099,stroke:#000000;
+    style custom_task fill:#FF0000,stroke:#000000;
+
     dbt_stg-->dbt_dv;
     dbt_dv-->dbt_dm;
     custom_task-->dbt_dm;
